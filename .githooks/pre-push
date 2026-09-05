@@ -1,0 +1,3 @@
+#!/bin/sh
+# SEO, güvenlik ve mobil uyumluluk kontrollerini push öncesi çalıştırır.
+node "$(git rev-parse --show-toplevel)/scripts/pre-push-check.mjs"
